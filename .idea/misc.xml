@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Latitude/Downloads/MyApplication4/app/src/main/res/drawable/button_circle.xml" value="0.1675925925925926" />
+        <entry key="..\:/Users/Latitude/Downloads/MyApplication4/app/src/main/res/drawable/button_rounded.xml" value="0.1824074074074074" />
+        <entry key="..\:/Users/Latitude/Downloads/MyApplication4/app/src/main/res/drawable/rounded_edge.xml" value="0.17222222222222222" />
+        <entry key="..\:/Users/Latitude/Downloads/MyApplication4/app/src/main/res/layout/aca_nav_activity.xml" value="0.1796875" />
+        <entry key="..\:/Users/Latitude/Downloads/MyApplication4/app/src/main/res/layout/aca_nav_view.xml" value="0.1796875" />
+        <entry key="..\:/Users/Latitude/Downloads/MyApplication4/app/src/main/res/layout/activity_academic_dashboard.xml" value="0.1796875" />
+        <entry key="..\:/Users/Latitude/Downloads/MyApplication4/app/src/main/res/layout/activity_academic_login.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Latitude/Downloads/MyApplication4/app/src/main/res/layout/activity_add_academic.xml" value="0.1796875" />
+        <entry key="..\:/Users/Latitude/Downloads/MyApplication4/app/src/main/res/layout/activity_add_non_academic.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Latitude/Downloads/MyApplication4/app/src/main/res/layout/activity_add_student.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Latitude/Downloads/MyApplication4/app/src/main/res/layout/activity_admin_dashboard.xml" value="0.1796875" />
+        <entry key="..\:/Users/Latitude/Downloads/MyApplication4/app/src/main/res/layout/activity_admin_login.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Latitude/Downloads/MyApplication4/app/src/main/res/layout/activity_app_info.xml" value="0.165625" />
+        <entry key="..\:/Users/Latitude/Downloads/MyApplication4/app/src/main/res/layout/activity_chat_forrum.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Latitude/Downloads/MyApplication4/app/src/main/res/layout/activity_give_attendance.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Latitude/Downloads/MyApplication4/app/src/main/res/layout/activity_main.xml" value="0.1796875" />
+        <entry key="..\:/Users/Latitude/Downloads/MyApplication4/app/src/main/res/layout/activity_main_dashboard.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Latitude/Downloads/MyApplication4/app/src/main/res/layout/activity_manual_attendance.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Latitude/Downloads/MyApplication4/app/src/main/res/layout/activity_mark_leave.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Latitude/Downloads/MyApplication4/app/src/main/res/layout/activity_mark_leave2.xml" value="0.165625" />
+        <entry key="..\:/Users/Latitude/Downloads/MyApplication4/app/src/main/res/layout/activity_non_academic_dashboard.xml" value="0.1796875" />
+        <entry key="..\:/Users/Latitude/Downloads/MyApplication4/app/src/main/res/layout/activity_non_academic_login.xml" value="0.1796875" />
+        <entry key="..\:/Users/Latitude/Downloads/MyApplication4/app/src/main/res/layout/activity_reply_forum.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Latitude/Downloads/MyApplication4/app/src/main/res/layout/activity_student_dashboard.xml" value="0.1796875" />
+        <entry key="..\:/Users/Latitude/Downloads/MyApplication4/app/src/main/res/layout/activity_student_login.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Latitude/Downloads/MyApplication4/app/src/main/res/layout/activity_student_navigation_drawer.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Latitude/Downloads/MyApplication4/app/src/main/res/layout/activity_take_attendance.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Latitude/Downloads/MyApplication4/app/src/main/res/layout/activity_update_info.xml" value="0.1796875" />
+        <entry key="..\:/Users/Latitude/Downloads/MyApplication4/app/src/main/res/layout/admin_nav_activity.xml" value="0.1796875" />
+        <entry key="..\:/Users/Latitude/Downloads/MyApplication4/app/src/main/res/layout/app_bar_student_navigation_drawer.xml" value="0.1796875" />
+        <entry key="..\:/Users/Latitude/Downloads/MyApplication4/app/src/main/res/layout/content_student_navigation_drawer.xml" value="0.1796875" />
+        <entry key="..\:/Users/Latitude/Downloads/MyApplication4/app/src/main/res/layout/fragment_home.xml" value="0.1796875" />
+        <entry key="..\:/Users/Latitude/Downloads/MyApplication4/app/src/main/res/layout/nav_activity_main.xml" value="0.1796875" />
+        <entry key="..\:/Users/Latitude/Downloads/MyApplication4/app/src/main/res/layout/nav_header_student_navigation_drawer.xml" value="0.22" />
+        <entry key="..\:/Users/Latitude/Downloads/MyApplication4/app/src/main/res/layout/nonaca_nav_activity.xml" value="0.1796875" />
+        <entry key="..\:/Users/Latitude/Downloads/MyApplication4/app/src/main/res/menu/academic_navigation_drawer.xml" value="0.1796875" />
+        <entry key="..\:/Users/Latitude/Downloads/MyApplication4/app/src/main/res/menu/activity_main_drawer.xml" value="0.4466666666666667" />
+        <entry key="..\:/Users/Latitude/Downloads/MyApplication4/app/src/main/res/menu/student_navigation_drawer.xml" value="0.1796875" />
+        <entry key="..\:/Users/Latitude/Downloads/NEXTSTEPSTUDENT/app/src/main/res/layout/aca_nav_activity.xml" value="0.1796875" />
+        <entry key="..\:/Users/Latitude/Downloads/NEXTSTEPSTUDENT/app/src/main/res/layout/activity_academic_dashboard.xml" value="0.1796875" />
+        <entry key="..\:/Users/Latitude/Downloads/NEXTSTEPSTUDENT/app/src/main/res/layout/activity_academic_login.xml" value="0.1796875" />
+        <entry key="..\:/Users/Latitude/Downloads/NEXTSTEPSTUDENT/app/src/main/res/layout/activity_add_academic.xml" value="0.22" />
+        <entry key="..\:/Users/Latitude/Downloads/NEXTSTEPSTUDENT/app/src/main/res/layout/activity_add_non_academic.xml" value="0.1796875" />
+        <entry key="..\:/Users/Latitude/Downloads/NEXTSTEPSTUDENT/app/src/main/res/layout/activity_add_student.xml" value="0.1796875" />
+        <entry key="..\:/Users/Latitude/Downloads/NEXTSTEPSTUDENT/app/src/main/res/layout/activity_admin_dashboard.xml" value="0.1796875" />
+        <entry key="..\:/Users/Latitude/Downloads/NEXTSTEPSTUDENT/app/src/main/res/layout/activity_admin_login.xml" value="0.1796875" />
+        <entry key="..\:/Users/Latitude/Downloads/NEXTSTEPSTUDENT/app/src/main/res/layout/activity_app_info.xml" value="0.22" />
+        <entry key="..\:/Users/Latitude/Downloads/NEXTSTEPSTUDENT/app/src/main/res/layout/activity_chat_forrum.xml" value="0.1796875" />
+        <entry key="..\:/Users/Latitude/Downloads/NEXTSTEPSTUDENT/app/src/main/res/layout/activity_forgot_password.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Latitude/Downloads/NEXTSTEPSTUDENT/app/src/main/res/layout/activity_forgot_password2.xml" value="0.1796875" />
+        <entry key="..\:/Users/Latitude/Downloads/NEXTSTEPSTUDENT/app/src/main/res/layout/activity_forgot_password3.xml" value="0.1796875" />
+        <entry key="..\:/Users/Latitude/Downloads/NEXTSTEPSTUDENT/app/src/main/res/layout/activity_forgot_password4.xml" value="0.1796875" />
+        <entry key="..\:/Users/Latitude/Downloads/NEXTSTEPSTUDENT/app/src/main/res/layout/activity_give_attendance.xml" value="0.1796875" />
+        <entry key="..\:/Users/Latitude/Downloads/NEXTSTEPSTUDENT/app/src/main/res/layout/activity_main.xml" value="0.1796875" />
+        <entry key="..\:/Users/Latitude/Downloads/NEXTSTEPSTUDENT/app/src/main/res/layout/activity_main_dashboard.xml" value="0.22" />
+        <entry key="..\:/Users/Latitude/Downloads/NEXTSTEPSTUDENT/app/src/main/res/layout/activity_manual_attendance.xml" value="0.1796875" />
+        <entry key="..\:/Users/Latitude/Downloads/NEXTSTEPSTUDENT/app/src/main/res/layout/activity_mark_leave.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Latitude/Downloads/NEXTSTEPSTUDENT/app/src/main/res/layout/activity_non_academic_dashboard.xml" value="0.1796875" />
+        <entry key="..\:/Users/Latitude/Downloads/NEXTSTEPSTUDENT/app/src/main/res/layout/activity_non_academic_login.xml" value="0.1796875" />
+        <entry key="..\:/Users/Latitude/Downloads/NEXTSTEPSTUDENT/app/src/main/res/layout/activity_reply_forum.xml" value="0.1796875" />
+        <entry key="..\:/Users/Latitude/Downloads/NEXTSTEPSTUDENT/app/src/main/res/layout/activity_student_dashboard.xml" value="0.1796875" />
+        <entry key="..\:/Users/Latitude/Downloads/NEXTSTEPSTUDENT/app/src/main/res/layout/activity_student_login.xml" value="0.1796875" />
+        <entry key="..\:/Users/Latitude/Downloads/NEXTSTEPSTUDENT/app/src/main/res/layout/activity_student_navigation_drawer.xml" value="0.1" />
+        <entry key="..\:/Users/Latitude/Downloads/NEXTSTEPSTUDENT/app/src/main/res/layout/activity_take_attendance.xml" value="0.1796875" />
+        <entry key="..\:/Users/Latitude/Downloads/NEXTSTEPSTUDENT/app/src/main/res/layout/activity_update_info.xml" value="0.1796875" />
+        <entry key="..\:/Users/Latitude/Downloads/NEXTSTEPSTUDENT/app/src/main/res/layout/admin_nav_activity.xml" value="0.1796875" />
+        <entry key="..\:/Users/Latitude/Downloads/NEXTSTEPSTUDENT/app/src/main/res/layout/app_bar_student_navigation_drawer.xml" value="0.1796875" />
+        <entry key="..\:/Users/Latitude/Downloads/NEXTSTEPSTUDENT/app/src/main/res/layout/content_student_navigation_drawer.xml" value="0.1796875" />
+        <entry key="..\:/Users/Latitude/Downloads/NEXTSTEPSTUDENT/app/src/main/res/layout/fragment_appinfo.xml" value="0.1796875" />
+        <entry key="..\:/Users/Latitude/Downloads/NEXTSTEPSTUDENT/app/src/main/res/layout/fragment_home.xml" value="0.1796875" />
+        <entry key="..\:/Users/Latitude/Downloads/NEXTSTEPSTUDENT/app/src/main/res/layout/nav_activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Latitude/Downloads/NEXTSTEPSTUDENT/app/src/main/res/layout/nav_header_student_navigation_drawer.xml" value="0.1796875" />
+        <entry key="..\:/Users/Latitude/Downloads/NEXTSTEPSTUDENT/app/src/main/res/layout/nonaca_nav_activity.xml" value="0.1796875" />
+        <entry key="..\:/Users/Latitude/Downloads/NEXTSTEPSTUDENT/app/src/main/res/menu/academic_navigation_drawer.xml" value="0.1796875" />
+        <entry key="..\:/Users/Latitude/Downloads/NEXTSTEPSTUDENT/app/src/main/res/menu/activity_main_drawer.xml" value="0.1796875" />
+        <entry key="..\:/Users/Latitude/Downloads/NEXTSTEPSTUDENT/app/src/main/res/menu/student_navigation_drawer.xml" value="0.1796875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
