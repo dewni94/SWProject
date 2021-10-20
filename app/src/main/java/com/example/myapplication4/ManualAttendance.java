@@ -1,5 +1,6 @@
 package com.example.myapplication4;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.DatePickerDialog;
@@ -7,18 +8,29 @@ import android.app.TimePickerDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TimePicker;
+import android.widget.Toast;
+
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.firebase.firestore.DocumentReference;
+import com.google.firebase.firestore.FirebaseFirestore;
 
 import java.util.Calendar;
+import java.util.HashMap;
+import java.util.Map;
 
 public class ManualAttendance extends AppCompatActivity implements View.OnClickListener{
 
-    private ImageView backimg,datepickimg,timepickimg;
-    private EditText dateshow,timeshow;
+    ImageView backimg,datepickimg,timepickimg;
+    EditText dateshow,timeshow,name,indexNo;
     int tHour,tMinute;
+    Button button;
+    FirebaseFirestore db;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +43,11 @@ public class ManualAttendance extends AppCompatActivity implements View.OnClickL
 
         dateshow=findViewById(R.id.editTextTextPersonName20);
         datepickimg=findViewById(R.id.imageView53);
+        name=findViewById(R.id.editTextTextPersonName17);
+        indexNo=findViewById(R.id.editTextTextPersonName18);
+        button=findViewById(R.id.button3);
+        button.setOnClickListener(this);
+        db=FirebaseFirestore.getInstance();
 
         Calendar calendar=Calendar.getInstance();
         final int year=calendar.get(Calendar.YEAR);
@@ -72,6 +89,32 @@ public class ManualAttendance extends AppCompatActivity implements View.OnClickL
                 );
                 timePickerDialog.updateTime(tHour,tMinute);
                 timePickerDialog.show();
+            }
+        });
+        db = FirebaseFirestore.getInstance();
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String Name=name.getText().toString();
+                String IndexNo=indexNo.getText().toString();
+                String Date=dateshow.getText().toString();
+                String Time=timeshow.getText().toString();
+                Map<String,Object> attendance=new HashMap<>();
+                attendance.put("Name",Name);
+                attendance.put("Index_No",IndexNo);
+                attendance.put("Date",Date);
+                attendance.put("Time",Time);
+                db.collection("Attendance Details").add(attendance).addOnSuccessListener(new OnSuccessListener<DocumentReference>() {
+                    @Override
+                    public void onSuccess(DocumentReference documentReference) {
+                        Toast.makeText(ManualAttendance.this, "Details updated successfully!", Toast.LENGTH_SHORT).show();
+                    }
+                }).addOnFailureListener(new OnFailureListener() {
+                    @Override
+                    public void onFailure(@NonNull Exception e) {
+                        Toast.makeText(ManualAttendance.this, "Details updating unsuccessfull!", Toast.LENGTH_SHORT).show();
+                    }
+                });
             }
         });
     }
