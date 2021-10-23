@@ -79,6 +79,29 @@
         <entry key="..\:/Users/Latitude/Downloads/NEXTSTEPSTUDENT/app/src/main/res/menu/academic_navigation_drawer.xml" value="0.1796875" />
         <entry key="..\:/Users/Latitude/Downloads/NEXTSTEPSTUDENT/app/src/main/res/menu/activity_main_drawer.xml" value="0.1796875" />
         <entry key="..\:/Users/Latitude/Downloads/NEXTSTEPSTUDENT/app/src/main/res/menu/student_navigation_drawer.xml" value="0.1796875" />
+        <entry key="..\:/Users/pramu/AndroidStudioProjects/SWProject/app/src/main/res/layout/activity_academic_dashboard.xml" value="0.18125" />
+        <entry key="..\:/Users/pramu/AndroidStudioProjects/SWProject/app/src/main/res/layout/activity_academic_login.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/pramu/AndroidStudioProjects/SWProject/app/src/main/res/layout/activity_add_pos.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/pramu/AndroidStudioProjects/SWProject/app/src/main/res/layout/activity_add_post.xml" value="0.18125" />
+        <entry key="..\:/Users/pramu/AndroidStudioProjects/SWProject/app/src/main/res/layout/activity_add_post2.xml" value="0.18125" />
+        <entry key="..\:/Users/pramu/AndroidStudioProjects/SWProject/app/src/main/res/layout/activity_add_post4.xml" value="0.18125" />
+        <entry key="..\:/Users/pramu/AndroidStudioProjects/SWProject/app/src/main/res/layout/activity_add_student.xml" value="0.16258992805755396" />
+        <entry key="..\:/Users/pramu/AndroidStudioProjects/SWProject/app/src/main/res/layout/activity_admin_dashboard.xml" value="0.18125" />
+        <entry key="..\:/Users/pramu/AndroidStudioProjects/SWProject/app/src/main/res/layout/activity_admin_login.xml" value="0.18125" />
+        <entry key="..\:/Users/pramu/AndroidStudioProjects/SWProject/app/src/main/res/layout/activity_app_info.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/pramu/AndroidStudioProjects/SWProject/app/src/main/res/layout/activity_chat_forrum.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/pramu/AndroidStudioProjects/SWProject/app/src/main/res/layout/activity_chat_forum.xml" value="0.1" />
+        <entry key="..\:/Users/pramu/AndroidStudioProjects/SWProject/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/pramu/AndroidStudioProjects/SWProject/app/src/main/res/layout/activity_main_dashboard.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/pramu/AndroidStudioProjects/SWProject/app/src/main/res/layout/activity_non_academic_dashboard.xml" value="0.18125" />
+        <entry key="..\:/Users/pramu/AndroidStudioProjects/SWProject/app/src/main/res/layout/activity_reply_forum.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/pramu/AndroidStudioProjects/SWProject/app/src/main/res/layout/activity_student_dashboard.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/pramu/AndroidStudioProjects/SWProject/app/src/main/res/layout/activity_student_login.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/pramu/AndroidStudioProjects/SWProject/app/src/main/res/layout/activity_update_info.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/pramu/AndroidStudioProjects/SWProject/app/src/main/res/layout/admin_nav_activity.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/pramu/AndroidStudioProjects/SWProject/app/src/main/res/layout/each_comment.xml" value="0.264" />
+        <entry key="..\:/Users/pramu/AndroidStudioProjects/SWProject/app/src/main/res/layout/each_post.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/pramu/AndroidStudioProjects/SWProject/app/src/main/res/layout/forum_comment.xml" value="0.2" />
       </map>
     </option>
   </component>
