@@ -21,7 +21,6 @@ import com.google.firebase.auth.FirebaseAuth;
 public class AdminDashboard extends AppCompatActivity implements View.OnClickListener {
 
     public CardView updateinfocard;
-    public CardView userlogcard;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,10 +28,8 @@ public class AdminDashboard extends AppCompatActivity implements View.OnClickLis
         setContentView(R.layout.admin_nav_activity);
 
         updateinfocard=(CardView) findViewById(R.id.updateinfo);
-        userlogcard=(CardView) findViewById(R.id.userlog);
 
         updateinfocard.setOnClickListener(this);
-        userlogcard.setOnClickListener(this);
 
         NavigationView navigationView=findViewById(R.id.nav_view2);
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
@@ -84,10 +81,6 @@ public class AdminDashboard extends AppCompatActivity implements View.OnClickLis
         switch (view.getId()){
             case R.id.updateinfo:
                 i=new Intent(this,UpdateInfo.class);
-                startActivity(i);
-                break;
-            case R.id.userlog:
-                i=new Intent(this,AddStudent.class);
                 startActivity(i);
                 break;
         }
