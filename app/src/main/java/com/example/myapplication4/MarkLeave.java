@@ -1,5 +1,6 @@
 package com.example.myapplication4;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.DatePickerDialog;
@@ -13,7 +14,9 @@ import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TimePicker;
+import android.widget.Toast;
 
+import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.CollectionReference;
@@ -28,12 +31,11 @@ import java.util.Map;
 
 public class MarkLeave extends AppCompatActivity implements View.OnClickListener{
 
-    private ImageView backimg,datepickimg,timepickimg;
-    private EditText dateshow,timeshow,name,indexNo,reason;
+    ImageView backimg,datepickimg,timepickimg;
+    EditText dateshow,timeshow,name,indexNo,reason;
     int tHour,tMinute;
     private Button submit;
-    FirebaseAuth fAuth;
-    FirebaseFirestore fStore;
+    FirebaseFirestore db;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,8 +51,6 @@ public class MarkLeave extends AppCompatActivity implements View.OnClickListener
         indexNo=findViewById(R.id.editTextTextPersonName10);
         reason=findViewById(R.id.editTextTextPersonName13);
         submit=findViewById(R.id.button2);
-        fAuth=FirebaseAuth.getInstance();
-        fStore=FirebaseFirestore.getInstance();
 
         Calendar calendar=Calendar.getInstance();
         final int year=calendar.get(Calendar.YEAR);
@@ -94,27 +94,34 @@ public class MarkLeave extends AppCompatActivity implements View.OnClickListener
                 timePickerDialog.show();
             }
         });
+        db = FirebaseFirestore.getInstance();
         submit.setOnClickListener(new View.OnClickListener() {
-            String Name=name.getText().toString();
-            String IndexNo=indexNo.getText().toString();
-            String Date=dateshow.getText().toString();
-            String Time=timeshow.getText().toString();
-            String Reason=reason.toString();
             @Override
             public void onClick(View view) {
-                DocumentReference documentReference=fStore.collection("Leave").document(Date).collection(IndexNo).document(Name);
+                String Name=name.getText().toString();
+                String IndexNo=indexNo.getText().toString();
+                String Date=dateshow.getText().toString();
+                String Time=timeshow.getText().toString();
+                String Reason=reason.getText().toString();
                 Map<String,Object> leave=new HashMap<>();
                 leave.put("Name",Name);
                 leave.put("Index_No",IndexNo);
                 leave.put("Date",Date);
                 leave.put("Time",Time);
                 leave.put("Reason",Reason);
-                documentReference.set(leave).addOnSuccessListener(new OnSuccessListener<Void>() {
+                db.collection("Leave Details").add(leave).addOnSuccessListener(new OnSuccessListener<DocumentReference>() {
                     @Override
-                    public void onSuccess(Void unused) {
-                        Log.d("TAG", "onSuccess: Details added to the database");
+                    public void onSuccess(DocumentReference documentReference) {
+                        Toast.makeText(MarkLeave.this, "Details updated successfully!", Toast.LENGTH_SHORT).show();
+                    }
+                }).addOnFailureListener(new OnFailureListener() {
+                    @Override
+                    public void onFailure(@NonNull Exception e) {
+                        Toast.makeText(MarkLeave.this, "Details updating unsuccessfull!", Toast.LENGTH_SHORT).show();
                     }
                 });
+
+
             }
         });
     }
